@@ -8,6 +8,8 @@ let resultado = numero1 + numero2
 
 const curso = "JavaScript"
 
+debugger
+
 let nombreCompleto = prompt("Ingrese su nombre:")
 
 alert ("nombre ingresado: " + nombreCompleto)
