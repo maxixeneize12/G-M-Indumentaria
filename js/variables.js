@@ -1,18 +1,8 @@
-//clase 1
-let nombre = "Maxi"
-let apellido = "HERRERA"
-let edad = 38
-let numero1 = "38"
-let numero2 = "22"
-let resultado = numero1 + numero2
+//Inicio
 
-const curso = "JavaScript"
+let edad = prompt("Ingrese su edad:")
 
-debugger
+alert ("edad ingresada: " + edad)
 
-let nombreCompleto = prompt("Ingrese su nombre:")
-
-alert ("nombre ingresado: " + nombreCompleto)
-
-resultado = confirm ("esta seguro que desea instalar indows 98?")
+resultado = confirm ("confirma su compra?")
 
