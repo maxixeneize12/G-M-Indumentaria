@@ -1,8 +1,8 @@
 //Inicio
 
-let edad = prompt("Ingrese su edad:")
+let nombre = prompt("Ingrese su nombre:")
 
-alert ("edad ingresada: " + edad)
 
-resultado = confirm ("confirma su compra?")
+
+
 
