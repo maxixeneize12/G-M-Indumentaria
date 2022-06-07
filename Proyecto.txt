@@ -1,0 +1,7 @@
+Proyecto:
+
+Crear un sitio e-commerce donde se pueda seleccionar los productos de catálogo y se sumen
+al carrito de compras, que éste haga la suma de cantidad de productos por precio de cada
+uno, y nos de un subtotal parcial y final para poder ejecutar la compra.
+
+Maximiliano Herrera.
