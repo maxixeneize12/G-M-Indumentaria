@@ -17,11 +17,11 @@
   <link rel="stylesheet" href="css/estilos.css">
   <script src="js/variables.js"></script>
   <script src="js/funciones.js"></script>
-  <!--    completar al final
+  
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
     </style>
-    -->
+  
 
   <title>G&M Indumentaria</title>
 </head>
@@ -29,45 +29,41 @@
 <body>
   <header>
     <img src="" alt="">
-    
-<!--Barra de navegación-->
+
+    <!--Barra de navegación-->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
+
         <a class="navbar-brand" href="index.html">G&M Indumentaria</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">Incio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/2pantalones y shorts.html">Pantalones y Shorts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/3remeras y chombas.html">Remeras y Chombas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/4camperas y buzos.html">Camperas y Buzos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/5boxers.html">Boxer´s</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/6.zapatillas.html">Zapatillas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/7.combos.html">Combos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/8carrito">Carrito</a>
-            </li>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            <a class="nav-link" href="pages/2pantalones y shorts.html">Pantalones y Shorts</a>
+            <a class="nav-link" href="pages/3remeras y chombas.html">Remeras y Chombas</a>
+            <a class="nav-link" href="pages/4camperas y buzos.html">Camperas y Buzos</a>
+            <a class="nav-link" href="pages/5boxers.html">Boxer´s</a>
+            <a class="nav-link" href="pages/6.zapatillas.html">Zapatillas</a>
+            <a class="nav-link" href="pages/7.combos.html">Combos</a>
+            <a class="nav-link" href="pages/8carrito">Carrito</a>
           </ul>
         </div>
       </div>
     </nav>
   </header>
+  <!--Fin Barra de navegación-->
+
+  <!--Boton arriba-->
+  <div class="arriba">
+    <a class="btn btn-danger position-sticky" href="#scrollspyHeading1" role="button"><img
+        src="../imagen/flecha-hacia-arriba.png"></a>
+  </div>
+  <!--Fin Boton arriba-->
 
   <!--Tarjetas de artículos a vender-->
   <article>
@@ -112,44 +108,33 @@
       </div>
     </div>
   </article>
+  <!--Fin Tarjetas de artículos a vender-->
 
-<!--carrito de compras-->
-  <form>
-    <table>
-      <tr>
-        <td></td>
-        <td>Cantidad</td>
-        <td>Precio por unidad</td>
-        <td>Total</td>
-      </tr>
-      <tr>
-        <td>Pantalones</td>
-        <td><input type="text" size="3" id="pantalones" value="0"
-            onChange="calculo(this.value,preciopantalones.value,totalpantalones,total);">$</td>
-        <td><input type="hidden" id="preciopantalones" value="2000" /> 2000</td>
-        <td><input type="text" size="8" id="totalpantalones" value="0">$</td>
-      </tr>
-      <tr>
-        <td>Remeras</td>
-        <td><input type="text" size="3" id="remeras" value="0"
-            onChange="calculo(this.value,precioremeras.value,totalremeras,total);">$</td>
-        <td><input type="hidden" id="precioremeras" value="1500" /> 1500</td>
-        <td><input type="text" size="8" id="totalremeras" value="0">$</td>
-      </tr>
-      <tr>
-        <td>Camperas</td>
-        <td><input type="text" size="3" id="camperas" value="0"
-            onChange="calculo(this.value,preciocamperas.value,totalcamperas,total);">$</td>
-        <td><input type="hidden" id="preciocamperas" value="6000" />6000</td>
-        <td><input type="text" size="8" id="totalcamperas" value="0">$</td>
-      </tr>
-      <tr>
-        <td>Total</td>
-        <td></td>
-        <td></td>
-        <td><input type="text" id="total" size="8" value="0">$</td>
-      </tr>
-  </form>
+  <!--banner-->
+  <section class="banner container-fluid">
+    <div class="como-comprar">
+      <p class="txt-como-comprar">Como comprar</p>
+    </div>
+
+    <div><a href="pages/8carrito.html" class=""> Medios de pago</a></div>
+    <div><a href="pages/8carrito.html" class=""> Métodos de envío</a></div>
+    <div><a href="pages/8carrito.html" class=""> Términos y condiciones</a></div>
+  </section>
+  <!--Fin Banner-->
+
+  <!--Footer-->
+  <footer id="scrollspyHeading5">
+    <div class="redes-sociales">
+      <div class="instagram">
+        <a href="https://instagram.com/puntogcardetailing?utm_medium=copy_link"><img src="imagen/IGCELU.png"></a>
+      </div>
+
+      <div class="whatsapp">
+        <a href="https://wa.me/5491164068348"><img src="imagen/WACELU.png"></a>
+      </div>
+    </div>
+  </footer>
+  <!--Fin Footer-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">

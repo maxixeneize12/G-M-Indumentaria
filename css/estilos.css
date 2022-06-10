@@ -1,0 +1,42 @@
+* {
+    margin: 0%;
+    padding: 0%; }
+  
+  html {
+    font-size: 62.5%; }
+  
+  h1 {
+    font-size: 5rem;
+    text-align: center; }
+  
+  h2 {
+    color: wheat;
+    font-size: 5rem;
+    text-align: center; }
+  
+  h3 {
+    font-size: 5rem;
+    text-align: center;
+    color: red; }
+
+  h5 {
+    font-size: 2rem;
+    text-align: center;
+    color: blueviolet; }
+  
+  body {
+    font-family: 'Gentium Plus', serif;
+    background: whitesmoke;
+    text-decoration: none; }
+
+.banner {
+  font-size: 2.5rem; }
+  .banner a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000; }
+    .banner a:hover {
+      color: red; }
+    .banner .como-comprar {
+    margin-top: 15px;
+    margin-bottom: 10px; }

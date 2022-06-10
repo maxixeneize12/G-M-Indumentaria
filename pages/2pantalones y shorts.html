@@ -1,0 +1,37 @@
+<!--carrito de compras-->
+<form>
+    <table>
+      <tr>
+        <td></td>
+        <td>Cantidad</td>
+        <td>Precio por unidad</td>
+        <td>Total</td>
+      </tr>
+      <tr>
+        <td>Pantalones</td>
+        <td><input type="text" size="3" id="pantalones" value="0"
+            onChange="calculo(this.value,preciopantalones.value,totalpantalones,total);">$</td>
+        <td><input type="hidden" id="preciopantalones" value="2000" /> 2000</td>
+        <td><input type="text" size="8" id="totalpantalones" value="0">$</td>
+      </tr>
+      <tr>
+        <td>Remeras</td>
+        <td><input type="text" size="3" id="remeras" value="0"
+            onChange="calculo(this.value,precioremeras.value,totalremeras,total);">$</td>
+        <td><input type="hidden" id="precioremeras" value="1500" /> 1500</td>
+        <td><input type="text" size="8" id="totalremeras" value="0">$</td>
+      </tr>
+      <tr>
+        <td>Camperas</td>
+        <td><input type="text" size="3" id="camperas" value="0"
+            onChange="calculo(this.value,preciocamperas.value,totalcamperas,total);">$</td>
+        <td><input type="hidden" id="preciocamperas" value="6000" />6000</td>
+        <td><input type="text" size="8" id="totalcamperas" value="0">$</td>
+      </tr>
+      <tr>
+        <td>Total</td>
+        <td></td>
+        <td></td>
+        <td><input type="text" id="total" size="8" value="0">$</td>
+      </tr>
+  </form>
